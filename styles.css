@@ -1,0 +1,514 @@
+/* Add font files for ADLaM Display */
+@font-face {
+    font-family: 'ADLaM Display';
+    src: url('fonts/adlam-display.woff2') format('woff2'),
+         url('fonts/adlam-display.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Add font files for Acme */
+  @font-face {
+    font-family: 'Acme';
+    src: url('fonts/acme.woff2') format('woff2'),
+         url('fonts/acme.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Add font files for Actor */
+  @font-face {
+    font-family: 'Actor';
+    src: url('fonts/actor.woff2') format('woff2'),
+         url('fonts/actor.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  :root {
+    --font-family-adlam-display: 'ADLaM Display', sans-serif;
+    --font-family-acme: 'Acme', sans-serif;
+    --font-family-actor: 'Actor', sans-serif;
+  }
+  
+  
+  /* CSS Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .ellipse-1-3 {
+    position: absolute;
+    left: 1625px;
+    top: 330px;
+    width: 550px;
+    height: 519px;
+  }
+  
+  .ellipse-4-4 {
+    position: absolute;
+    left: 559px;
+    top: 228px;
+    width: 610px;
+    height: 524px;
+  }
+  
+  .ellipse-3-5 {
+    position: absolute;
+    left: -613px;
+    top: -175px;
+    width: 497px;
+    height: 477px;
+  }
+  
+  .group-1-2 {
+    position: absolute;
+    left: -613px;
+    top: -175px;
+    width: 2788px;
+    height: 1024px;
+  }
+  
+  .rectangle-1-6 {
+    position: absolute;
+    left: 175px;
+    top: 157px;
+    width: 1378px;
+    height: 742px;
+    border-radius: 114px;
+  }
+  
+  .rectangle-2-7 {
+    position: absolute;
+    left: 196px;
+    top: 178px;
+    width: 525px;
+    height: 700px;
+    background-color: rgba(44, 41, 109, 1);
+    border-radius: 114px;
+  }
+  
+  .text-9 {
+    position: absolute;
+    left: 1047px;
+    top: 275px;
+    width: 128px;
+    height: 63px;
+    font-size: 48px;
+    font-family: var(--font-family-adlam-display);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .frame-3-10 {
+    position: absolute;
+    left: 817px;
+    top: 375px;
+    width: 704px;
+    height: 70px;
+    background-color: rgba(95, 87, 209, 1);
+    border-radius: 10px;
+  }
+  
+  .text-11 {
+    position: absolute;
+    left: 831px;
+    top: 356px;
+    width: 296px;
+    height: 46px;
+    font-size: 32px;
+    font-family: var(--font-family-acme);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .frame-4-12 {
+    position: absolute;
+    left: 817px;
+    top: 488px;
+    width: 704px;
+    height: 70px;
+    background-color: rgba(95, 87, 209, 1);
+    border-radius: 10px;
+  }
+  
+  .text-13 {
+    position: absolute;
+    left: 831px;
+    top: 467px;
+    width: 155px;
+    height: 46px;
+    font-size: 32px;
+    font-family: var(--font-family-acme);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .log-in-8 {
+    position: absolute;
+    left: 817px;
+    top: 275px;
+    width: 704px;
+    height: 283px;
+  }
+  
+  .rectangle-3-15 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 396px;
+    height: 70px;
+    background-color: rgba(2, 5, 93, 1);
+    border-radius: 53px;
+  }
+  
+  .text-16 {
+    position: absolute;
+    left: 130px;
+    top: 23px;
+    width: 223px;
+    height: 23px;
+    font-size: 20px;
+    font-family: var(--font-family-adlam-display);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .vector-18 {
+    position: absolute;
+    left: 43.006177071947604px;
+    top: 16.17352294921875px;
+    width: 45.93161392211914px;
+    height: 36.78311538696289px;
+  }
+  
+  .vector-19 {
+    position: absolute;
+    left: 48.29628324508667px;
+    top: 24.0679931640625px;
+    width: 17.757490158081055px;
+    height: 28.888626098632812px;
+    opacity: 0.10000000149011612;
+  }
+  
+  .vector-20 {
+    position: absolute;
+    left: 43.006177071947604px;
+    top: 17.171142578125px;
+    width: 5.741451740264893px;
+    height: 35.78546142578125px;
+  }
+  
+  .vector-21 {
+    position: absolute;
+    left: 43.006177071947604px;
+    top: 17.171142578125px;
+    width: 5.741451740264893px;
+    height: 35.78546142578125px;
+  }
+  
+  .vector-22 {
+    position: absolute;
+    left: 83.19614791870117px;
+    top: 17.171142578125px;
+    width: 5.741451740264893px;
+    height: 35.78546142578125px;
+  }
+  
+  .vector-23 {
+    position: absolute;
+    left: 83.19614791870117px;
+    top: 17.171142578125px;
+    width: 5.741451740264893px;
+    height: 35.82884216308594px;
+  }
+  
+  .vector-24 {
+    position: absolute;
+    left: 43.24630405008793px;
+    top: 19.58135986328125px;
+    width: 45.691341400146484px;
+    height: 33.37531280517578px;
+  }
+  
+  .vector-25 {
+    position: absolute;
+    left: 43.00999007932842px;
+    top: 16.02081298828125px;
+    width: 45.99016571044922px;
+    height: 22.318029403686523px;
+  }
+  
+  .vector-26 {
+    position: absolute;
+    left: 43px;
+    top: 16px;
+    width: 45.929603576660156px;
+    height: 22.382179260253906px;
+  }
+  
+  .icon-google-gmail-17 {
+    position: absolute;
+    left: 43px;
+    top: 16px;
+    width: 46px;
+    height: 37px;
+  }
+  
+  .rectangle-4-14 {
+    position: absolute;
+    left: 261px;
+    top: 451px;
+    width: 396px;
+    height: 70px;
+  }
+  
+  .text-27 {
+    position: absolute;
+    left: 324px;
+    top: 228px;
+    width: 270px;
+    height: 69px;
+    font-size: 48px;
+    font-family: var(--font-family-adlam-display);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .rectangle-3-29 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 396px;
+    height: 70px;
+    background-color: rgba(2, 5, 93, 1);
+    border-radius: 53px;
+  }
+  
+  .text-30 {
+    position: absolute;
+    left: 130px;
+    top: 23px;
+    width: 223px;
+    height: 23px;
+    font-size: 20px;
+    font-family: var(--font-family-adlam-display);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .vector-32 {
+    position: absolute;
+    left: 49px;
+    top: 17px;
+    width: 37px;
+    height: 35px;
+  }
+  
+  .vector-33 {
+    position: absolute;
+    left: 51.13305926322937px;
+    top: 17px;
+    width: 28.963600158691406px;
+    height: 13.571249961853027px;
+  }
+  
+  .vector-34 {
+    position: absolute;
+    left: 51.03039503097534px;
+    top: 38.047264099121094px;
+    width: 28.872949600219727px;
+    height: 13.952749252319336px;
+  }
+  
+  .vector-35 {
+    position: absolute;
+    left: 67.4999828338623px;
+    top: 30.999999046325684px;
+    width: 18.5px;
+    height: 16.47471046447754px;
+  }
+  
+  .icon-google-icon-31 {
+    position: absolute;
+    left: 49px;
+    top: 17px;
+    width: 37px;
+    height: 35px;
+  }
+  
+  .rectangle-4-28 {
+    position: absolute;
+    left: 261px;
+    top: 339px;
+    width: 396px;
+    height: 70px;
+  }
+  
+  .rectangle-3-37 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 396px;
+    height: 70px;
+    background-color: rgba(2, 5, 93, 1);
+    border-radius: 53px;
+  }
+  
+  .text-38 {
+    position: absolute;
+    left: 130px;
+    top: 23px;
+    width: 223px;
+    height: 23px;
+    font-size: 20px;
+    font-family: var(--font-family-adlam-display);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .vector-40 {
+    position: absolute;
+    left: 49px;
+    top: 11px;
+    width: 40px;
+    height: 47.60026931762695px;
+  }
+  
+  .icon-apple-icon-39 {
+    position: absolute;
+    left: 49px;
+    top: 11px;
+    width: 40px;
+    height: 47.60026931762695px;
+  }
+  
+  .rectangle-4-36 {
+    position: absolute;
+    left: 261px;
+    top: 563px;
+    width: 396px;
+    height: 70px;
+  }
+  
+  .text-41 {
+    position: absolute;
+    left: 335px;
+    top: 702px;
+    width: 247px;
+    height: 25px;
+    font-size: 24px;
+    font-family: var(--font-family-actor);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .line-1-42 {
+    position: absolute;
+    left: 196px;
+    top: 668px;
+    width: 524.999267578125px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .rectangle-5-44 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 221px;
+    height: 67px;
+    background-color: rgba(2, 5, 92, 1);
+    border-radius: 25px;
+  }
+  
+  .vector-46 {
+    position: absolute;
+    left: 162.86376953125px;
+    top: 28px;
+    width: 26px;
+    height: 20px;
+  }
+  
+  .node-45 {
+    position: absolute;
+    left: 162.86376953125px;
+    top: 28px;
+    width: 26px;
+    height: 20px;
+  }
+  
+  .text-47 {
+    position: absolute;
+    left: 64px;
+    top: 20px;
+    width: 115px;
+    height: 28px;
+    font-size: 24px;
+    font-family: var(--font-family-adlam-display);
+    font-weight: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .component-2-43 {
+    position: absolute;
+    left: 344px;
+    top: 751px;
+    width: 221px;
+    height: 67px;
+  }
+  
+  .text-49 {
+    position: absolute;
+    left: 39px;
+    top: 17px;
+    width: 369px;
+    height: 31px;
+    font-size: 24px;
+    font-family: var(--font-family-adlam-display);
+    font-weight: normal;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .node-48 {
+    position: absolute;
+    left: 885px;
+    top: 609px;
+    width: 439px;
+    height: 64px;
+    background-color: rgba(90, 1, 134, 1);
+    border-radius: 10px;
+  }
+  
+  .adobe-express-file-1-50 {
+    position: absolute;
+    left: 1022px;
+    top: 197px;
+    width: 166px;
+    height: 63px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .macbook-pro-16-1-1 {
+    position: absolute;
+    left: 1088px;
+    top: -4036px;
+    width: 1728px;
+    height: 1117px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 2, 26, 1);
+  }
